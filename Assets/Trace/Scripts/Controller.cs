@@ -272,7 +272,7 @@ public class Controller : MonoBehaviour
 	public void Restart()
 	{
 #if (UNITY_5_3_OR_NEWER || UNITY_5_3)
-		SceneManager.LoadScene("Game");
+		SceneManager.LoadScene("game_line");
 #elif UNITY_5
 		Application.LoadLevel(Application.loadedLevelName);
 #endif

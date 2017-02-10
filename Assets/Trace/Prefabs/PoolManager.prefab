@@ -3001,7 +3001,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 435314}
   m_Layer: 0
-  m_Name: Weight_Root
+  m_Name: Coin_Root
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -18222,7 +18222,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pools:
-  - prefab: {fileID: 197638, guid: aec26b3301500624da71fa98636ccdaf, type: 2}
+  - prefab: {fileID: 1000011845829378, guid: ed1b2290857284b419ce100bbb1e9409, type: 2}
     mode: 0
     despawnPos: {x: 0, y: 0, z: 0}
     despawned:
@@ -18652,6 +18652,16 @@ MonoBehaviour:
     allowMore: 1
     debugMessages: 0
     size: 399
+    foldout: 0
+  - prefab: {fileID: 1000011845829378, guid: ed1b2290857284b419ce100bbb1e9409, type: 2}
+    mode: 0
+    despawnPos: {x: -100, y: -100, z: -100}
+    despawned: []
+    spawned: []
+    m_Root: {fileID: 0}
+    allowMore: 1
+    debugMessages: 0
+    size: 1
     foldout: 0
   debugMessages: 0
   spawnDespawnMessages: 0

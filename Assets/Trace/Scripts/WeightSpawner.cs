@@ -10,6 +10,7 @@ public class WeightSpawner : MonoBehaviour {
 
 	private string Weight="Weight";
 	private string WeightHeavy="WeightHeavy";
+	private string coin="Coin";
 	private Transform thisTransform;
 	private Transform CameraObj;
 
@@ -27,9 +28,11 @@ public class WeightSpawner : MonoBehaviour {
 		{
 			int randm=Random.Range(0,2);
 			if(randm==0)
-				ObjectsPool.Spawn(Weight, thisTransform.position,Quaternion.identity);
+				ObjectsPool.Spawn(coin, thisTransform.position,Quaternion.identity);
 			if(randm==1)
 				ObjectsPool.Spawn(WeightHeavy, thisTransform.position,Quaternion.identity);
+			if (randm == 2)
+				ObjectsPool.Spawn (coin, thisTransform.position, Quaternion.identity);
 		}
 		//Invoke spawn at random time interval between min and max
 		Invoke ("Spawn", Random.Range (spawnMin, spawnMax));

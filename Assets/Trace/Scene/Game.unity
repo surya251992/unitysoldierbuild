@@ -1557,6 +1557,10 @@ Prefab:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 11415674, guid: 576cb3d41090f164392e238d32edb5ec, type: 2}
+      propertyPath: pools.Array.size
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 445408, guid: 576cb3d41090f164392e238d32edb5ec, type: 2}
       propertyPath: m_LocalPosition.x
       value: 0
@@ -1588,6 +1592,55 @@ Prefab:
     - target: {fileID: 445408, guid: 576cb3d41090f164392e238d32edb5ec, type: 2}
       propertyPath: m_RootOrder
       value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 11415674, guid: 576cb3d41090f164392e238d32edb5ec, type: 2}
+      propertyPath: pools.Array.data[3].foldout
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 11415674, guid: 576cb3d41090f164392e238d32edb5ec, type: 2}
+      propertyPath: pools.Array.data[3].allowMore
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 11415674, guid: 576cb3d41090f164392e238d32edb5ec, type: 2}
+      propertyPath: pools.Array.data[3].debugMessages
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 11415674, guid: 576cb3d41090f164392e238d32edb5ec, type: 2}
+      propertyPath: pools.Array.data[2].foldout
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 11415674, guid: 576cb3d41090f164392e238d32edb5ec, type: 2}
+      propertyPath: pools.Array.data[1].foldout
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 11415674, guid: 576cb3d41090f164392e238d32edb5ec, type: 2}
+      propertyPath: pools.Array.data[0].foldout
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 11415674, guid: 576cb3d41090f164392e238d32edb5ec, type: 2}
+      propertyPath: pools.Array.data[3].prefab
+      value: 
+      objectReference: {fileID: 1000011845829378, guid: ed1b2290857284b419ce100bbb1e9409,
+        type: 2}
+    - target: {fileID: 11415674, guid: 576cb3d41090f164392e238d32edb5ec, type: 2}
+      propertyPath: pools.Array.data[3].despawnPos.x
+      value: -100
+      objectReference: {fileID: 0}
+    - target: {fileID: 11415674, guid: 576cb3d41090f164392e238d32edb5ec, type: 2}
+      propertyPath: pools.Array.data[3].despawnPos.y
+      value: -100
+      objectReference: {fileID: 0}
+    - target: {fileID: 11415674, guid: 576cb3d41090f164392e238d32edb5ec, type: 2}
+      propertyPath: pools.Array.data[3].despawnPos.z
+      value: -100
+      objectReference: {fileID: 0}
+    - target: {fileID: 11415674, guid: 576cb3d41090f164392e238d32edb5ec, type: 2}
+      propertyPath: pools.Array.data[3].m_Root
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 11415674, guid: 576cb3d41090f164392e238d32edb5ec, type: 2}
+      propertyPath: pools.Array.data[3].size
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 576cb3d41090f164392e238d32edb5ec, type: 2}
@@ -1706,7 +1759,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: 9cd60a27f7c1945d4a37b53588911fee, type: 3}
   m_PlayOnAwake: 1
-  m_Volume: 0.4
+  m_Volume: 0.183
   m_Pitch: 1
   Loop: 1
   Mute: 0

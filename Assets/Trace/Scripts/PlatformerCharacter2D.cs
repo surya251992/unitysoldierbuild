@@ -1,8 +1,11 @@
 using System;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class PlatformerCharacter2D : MonoBehaviour
 {
+	public Text coins;
+	public int coin = 0;
 	[Tooltip("The fastest the player can travel in the x axis.")]
 	public float MaxSpeed = 10f;
 	[Tooltip("Amount of force added when the player jumps.")]
@@ -128,4 +131,18 @@ public class PlatformerCharacter2D : MonoBehaviour
         theScale.x *= -1;
         transform.localScale = theScale;
     }
+
+	void OnCollisionEnter2D(Collision2D coll)
+	{
+		//If the weight hits the player, despawn it and remove one life
+		if (coll.gameObject.tag == "Weight")
+		{
+			//ObjectsPool.Despawn(this.gameObject);
+			PlayerPrefs.SetInt ("Coins",PlayerPrefs.GetInt("Coins")+1);
+			coin = coin + 1;
+			coins.text = "x" + coin.ToString();
+			print (PlayerPrefs.GetInt("Coins"));
+			//GameController.Damage(1);
+		}
+	}
 }

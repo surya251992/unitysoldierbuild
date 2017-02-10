@@ -94,7 +94,7 @@ PlayerSettings:
     16:10: 1
     16:9: 1
     Others: 1
-  bundleIdentifier: com.mintonne.Trace
+  bundleIdentifier: com.misplacedminds.lifeline
   bundleVersion: 1.0
   preloadedAssets: []
   metroEnableIndependentInputSource: 0
@@ -164,7 +164,7 @@ PlayerSettings:
   iOSURLSchemes: []
   AndroidTargetDevice: 3
   AndroidSplashScreenScale: 2
-  androidSplashScreen: {fileID: 2800000, guid: 4f8cbc36dcf32954b800c10d4ac7da91, type: 3}
+  androidSplashScreen: {fileID: 0}
   AndroidKeystoreName: lifeline.keystore
   AndroidKeyaliasName: lifeline
   AndroidTVCompatibility: 1
@@ -524,13 +524,13 @@ PlayerSettings:
   - WebGL::template
   - additionalIl2CppArgs::additionalIl2CppArgs
   Analytics_ServiceEnabled::Analytics_ServiceEnabled: False
-  Build_ServiceEnabled::Build_ServiceEnabled: False
+  Build_ServiceEnabled::Build_ServiceEnabled: True
   Collab_ServiceEnabled::Collab_ServiceEnabled: False
   ErrorHub_ServiceEnabled::ErrorHub_ServiceEnabled: False
   Game_Performance_ServiceEnabled::Game_Performance_ServiceEnabled: False
   Hub_ServiceEnabled::Hub_ServiceEnabled: False
   Purchasing_ServiceEnabled::Purchasing_ServiceEnabled: False
-  UNet_ServiceEnabled::UNet_ServiceEnabled: False
+  UNet_ServiceEnabled::UNet_ServiceEnabled: True
   Unity_Ads_ServiceEnabled::Unity_Ads_ServiceEnabled: False
   WebGL::emscriptenArgs: 
   WebGL::template: APPLICATION:Default
@@ -573,7 +573,7 @@ PlayerSettings:
   XboxOne::VR::enabledDevices: []
   iOS::VR::enabledDevices: []
   tvOS::VR::enabledDevices: []
-  cloudProjectId: 
-  projectName: 
-  organizationId: 
+  cloudProjectId: 5cb67994-7674-40e8-8e9d-2a8c78c666f9
+  projectName: Trace
+  organizationId: surya251992
   cloudEnabled: 0
