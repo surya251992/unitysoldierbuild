@@ -45,6 +45,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\CoinsCount.cs" />
      <Compile Include="Assets\Trace\Joystick\Scripts\Controllers\InputHelpers\BaseInputHelper.cs" />
      <Compile Include="Assets\Trace\Joystick\Scripts\Controllers\InputHelpers\ButtonInputHelper.cs" />
      <Compile Include="Assets\Trace\Joystick\Scripts\Controllers\InputHelpers\JoystickInputHelper.cs" />

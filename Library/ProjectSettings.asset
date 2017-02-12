@@ -164,7 +164,7 @@ PlayerSettings:
   iOSURLSchemes: []
   AndroidTargetDevice: 3
   AndroidSplashScreenScale: 2
-  androidSplashScreen: {fileID: 2800000, guid: 4f8cbc36dcf32954b800c10d4ac7da91, type: 3}
+  androidSplashScreen: {fileID: 0}
   AndroidKeystoreName: lifeline.keystore
   AndroidKeyaliasName: lifeline
   AndroidTVCompatibility: 1
