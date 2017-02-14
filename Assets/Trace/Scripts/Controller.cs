@@ -273,6 +273,7 @@ public class Controller : MonoBehaviour
 	{
 #if (UNITY_5_3_OR_NEWER || UNITY_5_3)
 		SceneManager.LoadScene("game_line");
+		PlayerPrefs.SetInt ("CurrentCoins",0);
 #elif UNITY_5
 		Application.LoadLevel(Application.loadedLevelName);
 #endif

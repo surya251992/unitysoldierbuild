@@ -169,24 +169,24 @@ PlayerSettings:
   AndroidKeyaliasName: lifeline
   AndroidTVCompatibility: 1
   AndroidIsGame: 1
-  androidEnableBanner: 0
+  androidEnableBanner: 1
   m_AndroidBanners:
   - width: 320
     height: 180
-    banner: {fileID: 0}
+    banner: {fileID: 2800000, guid: 54df367c5778b4a17a599a6d25d3a849, type: 3}
   androidGamepadSupportLevel: 0
   resolutionDialogBanner: {fileID: 0}
   m_BuildTargetIcons:
   - m_BuildTarget: 
     m_Icons:
     - serializedVersion: 2
-      m_Icon: {fileID: 2800000, guid: 43a63b644e23e412f8b198c0a463ffa2, type: 3}
+      m_Icon: {fileID: 2800000, guid: 6983c4e12a9914a548f83c589413275f, type: 3}
       m_Width: 128
       m_Height: 128
   - m_BuildTarget: Android
     m_Icons:
     - serializedVersion: 2
-      m_Icon: {fileID: 2800000, guid: 43a63b644e23e412f8b198c0a463ffa2, type: 3}
+      m_Icon: {fileID: 2800000, guid: 6983c4e12a9914a548f83c589413275f, type: 3}
       m_Width: 192
       m_Height: 192
     - serializedVersion: 2

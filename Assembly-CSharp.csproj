@@ -72,6 +72,7 @@
      <Compile Include="Assets\Trace\Scripts\SkyBG.cs" />
      <Compile Include="Assets\Trace\Scripts\SoundManager.cs" />
      <Compile Include="Assets\Trace\Scripts\WeightSpawner.cs" />
+     <Compile Include="Assets\showad.cs" />
      <None Include="Assets\Trace\Music\Credits.txt" />
  <Reference Include="UnityEngine.Advertisements">
  <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/Advertisements/UnityEngine.Advertisements.dll</HintPath>

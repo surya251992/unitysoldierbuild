@@ -1,6 +1,7 @@
 using System;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.Advertisements;
 
 public class PlatformerCharacter2D : MonoBehaviour
 {
@@ -49,6 +50,10 @@ public class PlatformerCharacter2D : MonoBehaviour
         CeilingCheck = transform.Find("CeilingCheck");
         Anim = GetComponent<Animator>();
         Rigidbody2D = GetComponent<Rigidbody2D>();
+		if (Advertisement.isSupported) 
+		{
+			Advertisement.Initialize ("1294619",false);
+		}
     }
 
     private void FixedUpdate()
@@ -140,7 +145,8 @@ public class PlatformerCharacter2D : MonoBehaviour
 			//ObjectsPool.Despawn(this.gameObject);
 			PlayerPrefs.SetInt ("Coins",PlayerPrefs.GetInt("Coins")+1);
 			coin = coin + 1;
-			coins.text = "x" + coin.ToString();
+			PlayerPrefs.SetInt ("CurrentCoins",coin);
+			coins.text = ": " + coin.ToString();
 			print (PlayerPrefs.GetInt("Coins"));
 			//GameController.Damage(1);
 		}
