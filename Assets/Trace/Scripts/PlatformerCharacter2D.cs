@@ -7,6 +7,7 @@ public class PlatformerCharacter2D : MonoBehaviour
 {
 	public Text coins;
 	public int coin = 0;
+	public AudioSource pickupsound;
 	[Tooltip("The fastest the player can travel in the x axis.")]
 	public float MaxSpeed = 10f;
 	[Tooltip("Amount of force added when the player jumps.")]
@@ -143,6 +144,7 @@ public class PlatformerCharacter2D : MonoBehaviour
 		if (coll.gameObject.tag == "Weight")
 		{
 			//ObjectsPool.Despawn(this.gameObject);
+			pickupsound.Play();
 			PlayerPrefs.SetInt ("Coins",PlayerPrefs.GetInt("Coins")+1);
 			coin = coin + 1;
 			PlayerPrefs.SetInt ("CurrentCoins",coin);
